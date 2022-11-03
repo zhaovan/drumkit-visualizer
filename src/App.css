@@ -1,38 +1,68 @@
-.App {
-  text-align: center;
+.container {
+  min-height: 95vh;
+  padding-left: 10vw;
+  padding-top: 5vh;
+}
+.right-col {
+  padding-left: 5vw;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.circle {
+  width: 10px;
+  height: 10px;
+  position: absolute;
+  border-radius: 50%;
+  opacity: 0.4;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.drumkit-container {
+  position: relative;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+h1 {
+  margin-block-start: 0;
 }
 
-.App-link {
-  color: #61dafb;
+.icon {
+  width: 100px;
+  position: absolute;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.hihat {
+  left: 25px;
+  top: 50px;
+}
+
+.cymbal {
+  left: 75px;
+}
+
+.bass {
+  left: 200px;
+  top: 50px;
+}
+
+.snare {
+  left: 100px;
+  top: 100px;
+}
+
+.floor-tom {
+  left: 300px;
+  top: 75px;
+}
+
+.small-tom {
+  left: 175px;
+  top: 15px;
+  width: 50px;
+}
+
+.medium-tom {
+  left: 275px;
+  width: 75px;
+}
+
+.rise-cymbal {
+  left: 350px;
 }
