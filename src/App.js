@@ -84,7 +84,7 @@ function App() {
     );
     setRiseCymbal(
       new Howl({
-        src: ["sounds/riseCymbal.mp3"],
+        src: ["sounds/risecymbal.mp3"],
         volume: 0.3,
       })
     );
