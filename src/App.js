@@ -128,7 +128,7 @@ function App() {
         break;
     }
   };
-  console.log(circles);
+
   const keyMap = {
     d: "snare",
     f: "smallTom",
